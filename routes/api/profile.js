@@ -158,7 +158,7 @@ router.post(
 );
 
 //@route POST api/profile/experience
-//@description Get Profile by user_id
+//@description Add Experience
 //@access public
 router.post(
   "/experience",
