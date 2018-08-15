@@ -46,3 +46,15 @@ const mapStateToProps = state => ({
   auth: state.auth
 });
 export default connect(mapStateToProps)(Landing);
+import React, { Component } from 'react'
+
+ class Landing extends Component {
+  render() {
+    return (
+      <div>
+        
+      </div>
+    )
+  }
+}
+export default Landing;
